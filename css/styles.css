@@ -352,3 +352,62 @@ table {
   font-size: 200%;
   padding: 0 10%;
 }
+
+.chat-container { 
+  width: 300px; 
+  background-color: #fff; 
+  border: 1px solid #ddd; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  padding: 10px; 
+  margin: auto;
+} 
+
+.chatbox { 
+  height: 300px; 
+  overflow-y: scroll; 
+  border-bottom: 1px solid #ddd; 
+  padding: 10px;
+} 
+.messages { 
+  display: flex; 
+  flex-direction: column; 
+} 
+.message { 
+  margin-bottom: 10px; 
+  padding: 10px; 
+  font-size:16px;
+} 
+.user-message { 
+  background-color: #00b7ff; 
+  align-self: flex-end; 
+  color:white;
+  border-radius: 15px 3px 15px 15px;
+  
+} 
+.bot-message { 
+  background-color: #bbbbbb; 
+  align-self: flex-start; 
+  color: black;
+  border-radius: 3px 15px 15px 15px;
+} 
+.messageInput input[type="text"] { 
+  width: calc(100% - 70px); 
+  padding: 10px; 
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: darkgray;
+} 
+.messageInput button{ 
+  width: 60px; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 15px; 
+  background-color: #007bff; 
+  color: white; 
+  cursor: pointer; 
+  margin-left: 10px; 
+} 
+.messageInput button:hover { 
+  background-color: #0056b3; 
+}

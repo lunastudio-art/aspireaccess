@@ -94,10 +94,27 @@
       <p>Here is a full list of the courses we provide:</p>
       <iframe width="520" height="600" src="/aspireaccess/src/course_list.html"></iframe>
       <br>
+      <p>Don't see your course? Request a new course with our AspireGPT below!</p>
+      <br>
+      <div class="chat-container"> 
+        <div id="chatbox" class="chatbox"> 
+          <div id="messages" class="messages">
+
+          </div>
+         </div> 
+         <div class="messageInput">
+          <input type="text" id="userInput" placeholder="Message here!"> 
+          <button onclick="sendMessage()">Send</button>
+
+         </div>
+         
+        </div>
+      <br>
       <p>Need help with a course? <a href="https://chatgpt.com">ChatGPT</a> can help!</p>
     </div>
     <div id="footer"></div>
     <script src="/aspireaccess/js/index.js"></script>
+    <script src="/aspireaccess/js/chatbot.js"></script>
     <script>
       returnFooter();
       returnHeader();
