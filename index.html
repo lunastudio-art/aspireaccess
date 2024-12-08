@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="/js/index.js"></script>
+    <script src="/aspireaccess/js/index.js"></script>
     <div id="header"></div>
 
     <div class="homePageFirstHeading">
@@ -17,19 +17,19 @@
         Greetings, and welcome to AspireAccess! We provide quality education to
         students around the world at little to no cost! You can find courses,
         textbooks, and ways you can help out at our
-        <a href="/pages/resources.html">resources</a> page.
+        <a href="/aspireaccess/pages/resources.html">resources</a> page.
       </p>
     </div>
     <div id="footer"></div>
     <script>
       // Fetch and load footer
-      fetch("/src/footer.html")
+      fetch("/aspireaccess/src/footer.html")
         .then((response) => response.text())
         .then((data) => (document.getElementById("footer").innerHTML = data))
         .catch((err) => console.error("Footer loading failed:", err));
       
       // Fetch and load header
-      fetch("/src/header.html")
+      fetch("/aspireaccess/src/header.html")
         .then((response) => response.text())
         .then((data) => (document.getElementById("header").innerHTML = data))
         .catch((err) => console.error("Header loading failed:", err));

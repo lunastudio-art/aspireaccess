@@ -65,7 +65,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/homepage_background1.jpg");
+  background-image: url("/aspireaccess/images/homepage_background1.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(3px) brightness(50%);
@@ -92,7 +92,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/aboutpage_background.jpg");
+  background-image: url("/aspireaccess/images/aboutpage_background.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(3px) brightness(50%);
@@ -136,7 +136,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/coursespage_background.jpg");
+  background-image: url("/aspireaccess/images/coursespage_background.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(3px) brightness(50%);
@@ -201,7 +201,7 @@ table {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/contactpage_background.jpg");
+  background-image: url("/aspireaccess/images/contactpage_background.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(3px) brightness(50%);
@@ -271,7 +271,7 @@ table {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/blog_background.jpg");
+  background-image: url("/aspireaccess/images/blog_background.jpg");
   background-size: cover;
   background-position: center;
 
@@ -322,7 +322,7 @@ table {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/socialpage_background.jpg");
+  background-image: url("/aspireaccess/images/socialpage_background.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(3px) brightness(50%);
