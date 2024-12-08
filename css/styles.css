@@ -297,8 +297,6 @@ table {
   padding: 10px;
 }
 
-.card h1 {
-}
 
 .card:hover {
   box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
@@ -376,12 +374,14 @@ table {
   margin-bottom: 10px; 
   padding: 10px; 
   font-size:16px;
+  text-align: start;
 } 
 .user-message { 
   background-color: #00b7ff; 
   align-self: flex-end; 
   color:white;
   border-radius: 15px 3px 15px 15px;
+  
   
 } 
 .bot-message { 
