@@ -1,0 +1,354 @@
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 300%;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  position: sticky;
+}
+
+.navbar button {
+  background-color: lightgray;
+  top: 0;
+  border: none;
+  color: black;
+  padding: 15px 24px;
+  cursor: pointer;
+  float: left;
+  font-size: 150%;
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar button:not(:last-child) {
+  border-right: none;
+}
+
+.navbar:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.homePageHeading {
+  text-align: center;
+  font-size: 300%;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  color: white;
+  text-shadow: 0 0 10px #000000;
+}
+
+.homePageFirstHeading {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.homePageFirstHeading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/homepage_background1.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px) brightness(50%);
+  -webkit-filter: blur(3px);
+  z-index: -1;
+}
+
+.greetingCard {
+  text-align: center;
+  font-size: 200%;
+  padding: 0 10%;
+}
+
+.aboutPageFirstHeading {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.aboutPageFirstHeading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/aboutpage_background.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px) brightness(50%);
+  -webkit-filter: blur(3px);
+  z-index: -1;
+}
+
+.aboutPageHeading {
+  text-align: center;
+  font-size: 500%;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  color: white;
+  text-shadow: 0 0 20px #000000;
+  font-family: "Roboto Slab", serif;
+}
+
+.aboutPageCard {
+  font-family: "Roboto Slab", serif;
+  text-align: justify;
+  font-size: 200%;
+  padding: 0 10%;
+}
+
+.attributions {
+  background-color: lightgray;
+  padding: 2%;
+}
+
+.resourcesPageFirstHeading {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.resourcesPageFirstHeading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/coursespage_background.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px) brightness(50%);
+  -webkit-filter: blur(3px);
+  z-index: -1;
+}
+
+.resourcesPageHeading {
+  text-align: center;
+  font-size: 500%;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  color: white;
+  text-shadow: 0 0 20px #000000;
+  font-family: "Roboto Slab", serif;
+}
+
+.resourcesPageCard {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 200%;
+  padding: 0 10%;
+}
+
+td {
+  border: 2px solid black;
+  padding: 4px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  filter: brightness(100%);
+}
+
+#logo:hover {
+  filter: brightness(75%);
+}
+
+.accessButton {
+  font-size: 100%;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: darkgray;
+}
+
+.contactPageFirstHeading {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.contactPageFirstHeading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/contactpage_background.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px) brightness(50%);
+  -webkit-filter: blur(3px);
+  z-index: -1;
+}
+
+.contactPageHeading {
+  text-align: center;
+  font-size: 500%;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  color: white;
+  text-shadow: 0 0 20px #000000;
+  font-family: "Roboto Slab", serif;
+}
+
+.contactPageCard {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 200%;
+  padding: 0 10%;
+}
+
+.messageForm input {
+  font-size: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: darkgray;
+  margin: 2px;
+}
+
+.messageForm label {
+  font-family: "Roboto Slab", serif;
+}
+
+.messageForm textarea {
+  font-size: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: darkgray;
+  margin: 2px;
+}
+
+.messageForm button {
+  font-size: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: darkgray;
+  margin: 2px;
+}
+
+.blogFirstHeading {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.blogFirstHeading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/blog_background.jpg");
+  background-size: cover;
+  background-position: center;
+
+  z-index: -1;
+}
+
+.blogHeading {
+  text-align: center;
+  font-size: 500%;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  color: white;
+
+  font-family: "Roboto Slab", serif;
+}
+
+.card {
+  font-family: "Roboto Slab", serif;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 40px;
+  padding: 10px;
+}
+
+.card h1 {
+}
+
+.card:hover {
+  box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+  margin-right: 50%;
+  font-size: 150%;
+}
+
+.socialPageFirstHeading {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.socialPageFirstHeading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/socialpage_background.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px) brightness(50%);
+  -webkit-filter: blur(3px);
+  z-index: -1;
+}
+
+.socialPageHeading {
+  text-align: center;
+  font-size: 500%;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  color: white;
+  text-shadow: 0 0 20px #000000;
+  font-family: "Roboto Slab", serif;
+}
+
+.socialPageCard {
+  text-align: center;
+  font-size: 200%;
+  padding: 0 10%;
+}
+
+.donatePageCard {
+  text-align: center;
+  font-size: 200%;
+  padding: 0 10%;
+}

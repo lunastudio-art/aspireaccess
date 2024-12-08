@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/js/index.js"></script>
+    <div id="header"></div>
+
+    <div class="homePageFirstHeading">
+      <p class="homePageHeading">
+        <br />
+        Quality Education.<br /><br />Low cost.<br /><br /><strong
+          >As it should be.</strong
+        >
+      </p>
+    </div>
+    <div class="greetingCard">
+      <p>
+        Greetings, and welcome to AspireAccess! We provide quality education to
+        students around the world at little to no cost! You can find courses,
+        textbooks, and ways you can help out at our
+        <a href="/pages/resources.html">resources</a> page.
+      </p>
+    </div>
+    <div id="footer"></div>
+    <script>
+      // Fetch and load footer
+      fetch("/src/footer.html")
+        .then((response) => response.text())
+        .then((data) => (document.getElementById("footer").innerHTML = data))
+        .catch((err) => console.error("Footer loading failed:", err));
+      
+      // Fetch and load header
+      fetch("/src/header.html")
+        .then((response) => response.text())
+        .then((data) => (document.getElementById("header").innerHTML = data))
+        .catch((err) => console.error("Header loading failed:", err));
+
+    </script>
+  </body>
+</html>
