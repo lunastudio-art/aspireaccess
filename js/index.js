@@ -18,3 +18,15 @@ function returnFooter() {
     .then((data) => (document.getElementById("footer").innerHTML = data))
     .catch((err) => console.error("Footer loading failed:", err));
 }
+
+function hideResourcesOnLaunch() {
+  resourceInformation = document.getElementById("resourceInformationContent");
+  resourceInformation.hidden = true;
+}
+
+const zipCodeSubmitButton = document
+  .getElementById("zipCodeSubmit")
+  .addEventListener("click", function (event) {
+    resourceInformation = document.getElementById("resourceInformationContent");
+    resourceInformation.hidden = false;
+  });
